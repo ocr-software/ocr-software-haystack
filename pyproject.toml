@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools==82.0.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ocr-software-haystack"
+version = "0.1.0"
+description = "Haystack component that reads PDFs and scans with the ocr-software.com OCR API."
+readme = {file = "INSTALL.txt", content-type = "text/markdown"}
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["haystack-ai>=2.0,<4", "ocr-software==0.1.0"]
+keywords = ["haystack", "ocr", "pdf", "document-ai", "rag"]
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+
+[project.urls]
+Homepage = "https://ocr-software.com/"
+Repository = "https://github.com/ocr-software/ocr-software-haystack"
+
+[tool.setuptools]
+packages = ["ocr_software_haystack"]
