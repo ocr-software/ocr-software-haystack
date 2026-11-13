@@ -1,11 +1,9 @@
 # ocr-software-haystack: read PDFs and scans in a Haystack pipeline
 
-A Haystack component that sends PDF, PNG, JPEG or TIFF files to the [ocr-software.com OCR API](https://ocr-software.com/) and returns one `Document` per page. The files leave your machine for the API (Helsinki, EU), or for your own server if you set `base_url`.
+A Haystack component ([guide](https://ocr-software.com/integrations/haystack/)) that sends PDF, PNG, JPEG or TIFF files to the [ocr-software.com OCR API](https://ocr-software.com/) and returns one `Document` per page. The files leave your machine for the API (Helsinki, EU), or for your own server if you set `base_url`.
 
 ```
-pip install git+https://github.com/ocr-software/ocr-software-haystack
-# not on PyPI yet; after the first release: pip install ocr-software-haystack
-# the client ocr-software comes from PyPI by itself
+pip install ocr-software-haystack
 export OCR_SOFTWARE_API_KEY=ocr_...        # get a key at https://ocr-software.com/order/
 ```
 
