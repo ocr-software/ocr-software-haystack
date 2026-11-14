@@ -18,7 +18,7 @@ classifiers = ["Programming Language :: Python :: 3"]
 test = ["pytest==9.0.2"]
 
 [project.urls]
-Homepage = "https://ocr-software.com/"
+Homepage = "https://ocr-software.com/integrations/haystack/"
 Repository = "https://github.com/ocr-software/ocr-software-haystack"
 Documentation = "https://ocr-software.com/integrations/haystack/"
 
